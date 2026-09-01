@@ -1,0 +1,22 @@
+# Schritt 1 (aktuell benötigt)
+python-dotenv>=1.0.0
+pillow>=10.0.0
+opencv-python-headless>=4.9.0
+numpy>=1.26.0
+ollama>=0.4.0
+
+# Nur nötig bei BRIEFLY_PROVIDER=anthropic (Cloud-Fallback, optional)
+anthropic>=0.70.0
+
+# Ab Schritt 2 (Watch-Folder / Ablage)
+watchdog>=4.0.0
+
+# Ab Schritt 4 (GUI)
+customtkinter>=5.2.0
+tkinterdnd2>=0.6.0
+
+# Ab Schritt 5 (Erinnerungen)
+plyer>=2.1.0
+
+# Ab Schritt 6 (Packaging)
+pyinstaller>=6.0.0
