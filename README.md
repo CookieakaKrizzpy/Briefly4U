@@ -3,7 +3,8 @@
 
   # Briefly
 
-  **Deine Post, automatisch sortiert — komplett lokal auf deinem PC.**
+  **Deine Post, automatisch sortiert** 
+  **komplett lokal auf deinem PC.**
 
   ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-7C3AED)
   ![Local First](https://img.shields.io/badge/verarbeitung-100%25%20lokal-16a34a)
