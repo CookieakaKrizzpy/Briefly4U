@@ -8,6 +8,7 @@
   ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-7C3AED)
   ![Local First](https://img.shields.io/badge/verarbeitung-100%25%20lokal-16a34a)
   ![Status](https://img.shields.io/badge/status-aktiv%20in%20Entwicklung-8B5CF6)
+  ![Release](https://img.shields.io/github/v/release/CookieakaKrizzpy/Briefly4U?color=0EA5E9)
 </div>
 
 ---
