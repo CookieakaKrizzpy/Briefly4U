@@ -3,7 +3,7 @@
 
   # Briefly
 
-  **Deine Post, automatisch sortiert** 
+  **Deine Post, automatisch sortiert/n** 
   **komplett lokal auf deinem PC.**
 
   ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-7C3AED)
