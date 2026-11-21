@@ -23,6 +23,15 @@ plyer>=2.1.0
 # Nur nötig für die optionale Outlook-Kalenderanbindung (Windows, COM)
 pywin32>=306
 
+# Volltextsuche: eingebaute Windows-Texterkennung (nur Windows)
+winrt-runtime>=2.0
+winrt-Windows.Media.Ocr>=2.0
+winrt-Windows.Graphics.Imaging>=2.0
+winrt-Windows.Storage.Streams>=2.0
+winrt-Windows.Globalization>=2.0
+winrt-Windows.Foundation>=2.0
+winrt-Windows.Foundation.Collections>=2.0
+
 # Ab Schritt 6 (Packaging)
 pyinstaller>=6.0.0
 
