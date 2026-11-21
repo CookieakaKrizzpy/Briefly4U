@@ -61,12 +61,20 @@ der Praxis besser zu werden, statt nur Tutorials zu schauen.
   Eingangsordner, samt Fristen und Kalendereinträgen
 - 💾 **Datensicherung** — tägliche automatische Sicherung und eine vor jedem
   Update, manuelles Sichern und Wiederherstellen in den Einstellungen
-- ⏰ **Fristen im Blick** — eigener Fristen-Bereich mit Farbcodierung
-  (überfällig/bald fällig/später) und Kalender-Export (.ics)
+- ⏰ **Fristen im Blick** — eigener Fristen-Bereich mit Farbcodierung, Kalender-
+  Export (.ics) und Erinnerungen; abgelaufene Fristen stehen getrennt und
+  lösen keine Erinnerungen mehr aus
 - ✂️ **Manuelles Zuschneiden** — falls ein Foto mal schräg ist: Rechteck
   verschieben oder 4 Eckpunkte setzen (wie bei einer Handy-Scanner-App)
-- 🔍 **Duplikat-Erkennung** — warnt, falls dasselbe Dokument versehentlich
-  zweimal eingelesen wird
+- 🔍 **Duplikat-Analyse** — findet identische Dateien und erneut fotografierte
+  Briefe (per Bildmerkmalen, nicht nur per Dateiname), zeigt sie nebeneinander
+  und räumt auf Wunsch auf: die übrigen Dateien gehen in den Papierkorb
+- 🔎 **Volltextsuche** — findet auch Wörter im Dokument selbst, lokal über die
+  in Windows eingebaute Texterkennung; Umlaute und "ue/ss"-Schreibweisen sind egal
+- 🔄 **Update mit einem Klick** — der Installer wird geladen, per Prüfsumme
+  verifiziert und installiert sich still; deine Daten bleiben erhalten
+- 🛟 **Robust** — nur eine Instanz gleichzeitig, rotierende Protokolle, Ollama
+  startet sich bei Abstürzen selbst neu
 
 ## Datenschutz zuerst
 
