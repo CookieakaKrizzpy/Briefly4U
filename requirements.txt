@@ -1,9 +1,11 @@
 # Schritt 1 (aktuell benötigt)
 python-dotenv>=1.0.0
 pillow>=10.0.0
+pillow-heif>=0.18.0
 opencv-python-headless>=4.9.0
 numpy>=1.26.0
 ollama>=0.4.0
+pymupdf>=1.24.0
 
 # Nur nötig bei BRIEFLY_PROVIDER=anthropic (Cloud-Fallback, optional)
 anthropic>=0.70.0
@@ -14,9 +16,15 @@ watchdog>=4.0.0
 # Ab Schritt 4 (GUI)
 customtkinter>=5.2.0
 tkinterdnd2>=0.6.0
+pystray>=0.19.0
 
 # Ab Schritt 5 (Erinnerungen)
 plyer>=2.1.0
+# Nur nötig für die optionale Outlook-Kalenderanbindung (Windows, COM)
+pywin32>=306
 
 # Ab Schritt 6 (Packaging)
 pyinstaller>=6.0.0
+
+# Tests
+pytest>=7.0.0

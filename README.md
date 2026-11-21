@@ -55,8 +55,12 @@ der Praxis besser zu werden, statt nur Tutorials zu schauen.
 - ✅ **Nie blind übernommen** — jede Ablage läuft über einen
   Bestätigungs-Dialog, besonders bei Fristen wird nichts automatisch
   akzeptiert, wenn die Erkennung unsicher ist
-- 🗂️ **Saubere Ablage** — automatische Ordnerstruktur nach Jahr/Absender,
+- 🗂️ **Saubere Ablage** — automatische Ordnerstruktur nach Absender und Jahr,
   erkennt sogar ähnlich benannte Absender wieder, um Chaos zu vermeiden
+- ↩️ **Rückgängig** — falsch abgelegt? Ein Klick legt die Datei zurück in den
+  Eingangsordner, samt Fristen und Kalendereinträgen
+- 💾 **Datensicherung** — tägliche automatische Sicherung und eine vor jedem
+  Update, manuelles Sichern und Wiederherstellen in den Einstellungen
 - ⏰ **Fristen im Blick** — eigener Fristen-Bereich mit Farbcodierung
   (überfällig/bald fällig/später) und Kalender-Export (.ics)
 - ✂️ **Manuelles Zuschneiden** — falls ein Foto mal schräg ist: Rechteck
@@ -69,8 +73,8 @@ der Praxis besser zu werden, statt nur Tutorials zu schauen.
 Briefly läuft standardmäßig **komplett lokal** über [Ollama](https://ollama.com)
 mit einem lokalen Vision-Modell. Deine Dokumente verlassen dabei **nie**
 deinen Rechner — keine Cloud, kein Upload, kein Tracking. Eine optionale
-Cloud-Anbindung (für PDF-Verarbeitung) ist verfügbar, aber bewusst
-abgeschaltet, bis du sie selbst aktivierst.
+Cloud-Anbindung ist verfügbar, aber bewusst abgeschaltet, bis du sie selbst
+aktivierst. Auch PDFs und mehrseitige Dokumente werden lokal verarbeitet.
 
 Nach der Einrichtung braucht Briefly gar keine Internetverbindung mehr —
 sie wird nur noch gebraucht, wenn du ein Update ziehen willst, damit ich
@@ -101,15 +105,29 @@ sonst nichts. Genau das ist Briefly.
 ## Voraussetzungen
 
 - Windows 10/11
+- Ca. 8 GB freier Speicherplatz für die einmalige Einrichtung (Ollama und
+  KI-Modell)
 - Für gute Geschwindigkeit: eine NVIDIA-Grafikkarte mit mind. 8 GB VRAM
   (ohne GPU läuft es auf der CPU, aber deutlich langsamer)
 
 ## Installation
 
-Fertige Version unter **[Releases](../../releases)** herunterladen, entpacken,
-`Briefly.exe` starten — keine Installation nötig, kein Python-Setup, alles
-in einer eigenständigen `.exe`. Briefly richtet sich beim ersten Start
-selbst ein (inkl. automatischem Herunterladen des KI-Modells).
+Unter **[Releases](../../releases)** die Datei `Briefly-Setup-<Version>.exe`
+(ca. 80 MB) herunterladen und ausführen — kein Python-Setup, keine
+Administrator-Rechte nötig. Briefly installiert sich in deinen
+Benutzerordner und richtet sich beim ersten Start selbst ein: Falls Ollama
+noch nicht auf dem Rechner ist, wird es automatisch nachgeladen, ebenso das
+KI-Modell. Beides passiert einmalig und mit Fortschrittsanzeige.
+
+Für ein **Update** einfach den neuen Installer über die bestehende
+Installation laufen lassen — deine Dokumente, Fristen und Einstellungen
+bleiben erhalten. Briefly sichert seine Datenbank außerdem automatisch vor
+jedem Update.
+
+> **Hinweis zu Windows SmartScreen:** Der Installer ist (noch) nicht
+> signiert. Windows zeigt deshalb evtl. "Der Computer wurde durch Windows
+> geschützt" — über **Weitere Informationen → Trotzdem ausführen** geht es
+> weiter.
 
 ## Technischer Unterbau
 
